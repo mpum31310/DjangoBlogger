@@ -1,0 +1,12 @@
+{%extends 'base.html'%}
+
+
+
+{%block content%}
+    <h4> List posts</h4>
+
+    {%for ttl in object%}
+        <li>{{ttl.Title}}</li>
+    {%endfor%}
+
+{%endblock%}
